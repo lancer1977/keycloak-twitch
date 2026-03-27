@@ -1,0 +1,10 @@
+.git
+.gitignore
+.github
+README.md
+*.md
+memory
+memory/
+target
+**/target
+**/.DS_Store

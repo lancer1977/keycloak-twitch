@@ -11,6 +11,18 @@ This project provides a custom Keycloak OIDC identity provider for Twitch that k
 
 ## Build
 
+### Container image
+
+Build the custom Keycloak image locally:
+
+```bash
+docker build -t ghcr.io/lancer1977/keycloak-twitch:local .
+```
+
+Run it the same way as your current Keycloak container, but with the Twitch provider baked in.
+
+### Provider JAR
+
 ### With Maven installed locally
 
 ```bash
