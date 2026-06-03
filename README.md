@@ -2,6 +2,15 @@
 
 This project provides a custom Keycloak OIDC identity provider for Twitch that keeps Keycloak's normal OIDC broker behavior, but normalizes Twitch token responses where `scope` is returned as a JSON array instead of a string.
 
+## Tags
+
+- keycloak-twitch
+- auth
+- twitch
+- keycloak
+- docker
+- ui
+
 ## What it does
 
 - Registers a new provider id: `twitch-oidc`
