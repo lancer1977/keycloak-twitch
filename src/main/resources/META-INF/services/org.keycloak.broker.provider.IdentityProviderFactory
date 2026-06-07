@@ -1,1 +1,9 @@
 com.devforge.keycloak.twitch.TwitchOidcIdentityProviderFactory
+com.devforge.keycloak.twitch.DiscordOAuth2IdentityProviderFactory
+com.devforge.keycloak.twitch.SpotifyOAuth2IdentityProviderFactory
+com.devforge.keycloak.twitch.GithubOAuth2IdentityProviderFactory
+com.devforge.keycloak.twitch.PatreonOAuth2IdentityProviderFactory
+com.devforge.keycloak.twitch.RedditOAuth2IdentityProviderFactory
+com.devforge.keycloak.twitch.MicrosoftOidcIdentityProviderFactory
+com.devforge.keycloak.twitch.AppleOidcIdentityProviderFactory
+com.devforge.keycloak.twitch.YoutubeOidcIdentityProviderFactory
