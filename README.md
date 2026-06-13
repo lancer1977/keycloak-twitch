@@ -119,6 +119,11 @@ The preset factories supply endpoint and claim defaults so the Keycloak admin UI
 
 Steam is not OAuth2/OIDC. Steam login is based on OpenID 2.0, so it does not fit Keycloak's standard OIDC/OAuth2 provider classes or the simple preset-factory pattern above.
 
+## Documentation
+
+- [Docs Index](./docs/README.md)
+- [Roadmap Index](./docs/roadmaps/README.md)
+
 Best path for Steam:
 
 1. Add Steam as a separate custom Keycloak identity provider implementation, not as an `oauth2` or `oidc` preset.
